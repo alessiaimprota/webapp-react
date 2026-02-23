@@ -1,11 +1,12 @@
 import { Link } from "react-router";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import inceptionImage from "../assets/inception.jpg";
 
 const CardMovie = () => {
   return (
     <Card style={{ width: "18rem" }} className="m-5">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={inceptionImage} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
