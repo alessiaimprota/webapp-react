@@ -1,0 +1,12 @@
+nav {
+  background-color: lightgray;
+}
+
+nav a {
+  color: black !important;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}

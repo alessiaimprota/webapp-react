@@ -1,11 +1,16 @@
-import Card from "../components/Card";
+import CardMovie from "../components/CardMovie";
+
 const Homepage = () => {
   return (
     <>
       <h1>sono la homepage</h1>
-      <Card />
-      <Card />
-      <Card />
+      <div className="row">
+        <CardMovie />
+        <CardMovie />
+        <CardMovie />
+        <CardMovie />
+        <CardMovie />
+      </div>
     </>
   );
 };

@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const Header = () => {
   return (
-    <nav>
+    <nav className="p-3">
       <Link to="/">Bool Movies</Link>
     </nav>
   );

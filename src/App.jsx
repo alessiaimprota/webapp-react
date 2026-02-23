@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 //importo libreria rottee
 import { BrowserRouter, Routes, Route } from "react-router";
 
