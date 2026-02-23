@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Header = () => {
   return (
     <nav>
-      <Link>Bool Movies</Link>
+      <Link to="/">Bool Movies</Link>
     </nav>
   );
 };
