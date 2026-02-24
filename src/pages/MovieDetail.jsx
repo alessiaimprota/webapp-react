@@ -5,8 +5,8 @@ const MovieDetail = () => {
   return (
     <>
       <h1 className="m-3">Dettagliooo film</h1>
-      <img className="m-2" src={imageInception} alt="cover-inception" />
-      <div className="info-movie m-3 border-bottom p-3">
+      <img className="m-3" src={imageInception} alt="cover-inception" />
+      <div className="info-movie m-2 border-bottom p-3">
         <h2>title</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
@@ -30,31 +30,7 @@ const MovieDetail = () => {
         </p>
       </div>
       <h4 className="mt-5 m-3">Reviews</h4>
-      <div className="reviews-container m-3">
-        <div>
-          <h5>Name user </h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit consequuntur perferendis veritatis! Eligendi deleniti
-            sed error quidem. Eos nostrum praesentium repellat eligendi
-            doloremque iusto natus voluptatem sapiente, commodi illo incidunt!
-          </p>
-          <h5>Name user</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit consequuntur perferendis veritatis! Eligendi deleniti
-            sed error quidem. Eos nostrum praesentium repellat eligendi
-            doloremque iusto natus voluptatem sapiente, commodi illo incidunt!
-          </p>
-          <h5>Name user</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit consequuntur perferendis veritatis! Eligendi deleniti
-            sed error quidem. Eos nostrum praesentium repellat eligendi
-            doloremque iusto natus voluptatem sapiente, commodi illo incidunt!
-          </p>
-        </div>
-      </div>
+      <div className="reviews-container m-3"></div>
       <Button variant="primary" className="m-3">
         <Link to="/">Vai alla home</Link>
       </Button>

@@ -10,3 +10,7 @@ a {
   color: #fff !important;
   text-decoration: none !important;
 }
+
+.vote {
+  font-weight: 600;
+}
